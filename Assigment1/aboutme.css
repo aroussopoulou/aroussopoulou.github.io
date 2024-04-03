@@ -1,0 +1,146 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Yellowtail', cursive;
+    overflow: scroll;
+}
+
+body {
+    background-image: url('./background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.crimson-text-regular {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header h1 {
+    background-color: rgba(0, 0, 0, 0.0);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Yellowtail', cursive;
+    font-size: 60px;
+    margin-bottom: 0;
+    letter-spacing: 0.02cm;
+}
+ nav {
+    margin-top: 0;
+ }
+
+nav table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+nav td {
+    text-align: center;
+    padding: 20px;
+}
+
+nav td:nth-child(1) a {
+    background-color: #2A6C9C;
+}
+
+nav td:nth-child(2) a {
+    background-color: #C49C1C;
+}
+
+nav td:nth-child(3) a {
+    background-color: #736022;
+}
+
+nav td:nth-child(4) a {
+    background-color: #2E321E;
+}
+
+nav a.button {
+    display: block;
+    padding: 20px 5px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s ease;
+    font-family: 'Yellowtail', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.02cm;
+}
+
+nav a.button:hover {
+    background-color: #f8f8f8;
+    color: black;
+}
+
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.content-container {
+    border-collapse: collapse;
+    background-color: #2a6d9ce1; /* Semi-transparent white */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px; /* Inner spacing */
+    margin: 0px; /* Center the container horizontally */
+    width: 2000px; /* Adjust the width to match the navigation menu */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth *//* Or match the nav table max-width if defined */
+    box-sizing: border-box; /* Include padding in the width calculation */
+    flex-grow: 1;
+}
+
+/* Style the image to be circular */
+.profile-image {
+    border-radius: 50%; /* Makes the image circular */
+    width: 150px; /* Adjust width as needed */
+    height: 150px; /* Adjust height as needed */
+    object-fit: cover; /* Ensures the image covers the circular area */
+    border: 5px solid white; /* Optional: adds white border around the image */
+    float: left; /* Aligns the image to the left */
+    margin-right: 20px; /* Adds space between the image and the text */
+}
+
+/* Clear float for elements after floated profile image */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.content-container h2 {
+    color: white; 
+    text-align: center;
+    font-family: 'Yellowtail', cursive;
+    font-size: 35px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.02cm;
+    letter-spacing: 0.02cm;
+}
+/* Additional styles for headings and paragraphs inside the container */
+.content-container p {
+    color: white; 
+    text-align: left;
+    font-family: "Crimson Text", serif;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: normal;
+    letter-spacing: 0.02cm;
+}
+
+.content-container a {
+    color: rgb(0, 186, 243); 
+    text-align: left;
+    font-family: "Crimson Text", serif;
+    font-size: 15px;
+    /* text-decoration: none; */
+    font-weight: 700;
+    
+}
+
