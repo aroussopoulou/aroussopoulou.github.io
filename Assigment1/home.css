@@ -1,0 +1,174 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Yellowtail', cursive;
+    overflow: scroll;
+}
+
+body {
+    background-image: url('./background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header h1 {
+    background-color: rgba(0, 0, 0, 0.0);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Yellowtail', cursive;
+    font-size: 60px;
+    margin-bottom: 0;
+    letter-spacing: 0.02cm
+}
+ nav {
+    margin-top: 0;
+ }
+
+nav table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+nav td {
+    text-align: center;
+    padding: 20px;
+}
+
+nav td:nth-child(1) a {
+    background-color: #2A6C9C;
+}
+
+nav td:nth-child(2) a {
+    background-color: #C49C1C;
+}
+
+nav td:nth-child(3) a {
+    background-color: #736022;
+}
+
+nav td:nth-child(4) a {
+    background-color: #2E321E;
+}
+
+nav a.button {
+    display: block;
+    padding: 20px 5px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-family: 'Yellowtail', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.01cm;
+}
+
+nav a.button:hover {
+    background-color: #f8f8f8;
+    color: black;
+}
+
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Container for the SVG graphic */
+.svg-container {
+    flex-grow: 1;
+    background-color: #2D69A7;
+    text-align: center;
+    padding: 0;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    color: white; 
+    text-align: center;
+    font-family: 'Yellowtail', cursive;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.02cm;
+}
+  
+.graph .labels.x-labels {
+    text-anchor:start;
+    margin: 0;
+}
+  
+.graph .labels.y-labels {
+    text-anchor: end;
+}
+  
+  
+.graph {
+    height: 500px;
+    width: 800px;
+}
+  
+.graph .grid {
+    stroke: #14313E;
+    stroke-dasharray: 0;
+    stroke-width: 1;
+    border-radius: 15px;
+}
+  
+.labels {
+    font-size: 8px;
+    margin-inline-end: 0%;
+    color: #14313E;
+}
+  
+.label-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    fill: #14313E;
+}
+  
+.data {
+    fill: red;
+    stroke-width: 1; 
+}
+
+.rect {
+    display: block;
+    margin: 100px;
+    fill: #00A6A6;
+}
+
+.rect:hover {
+    fill: #561643;
+}
+
+.cir {
+    fill: #8B687F; 
+    transition: fill 0.5s ease; 
+}
+
+.cir:hover {
+    fill: #6c0e23; 
+}
+
+.pol {
+    fill: #F08700; 
+    transition: fill 0.5s ease; 
+}
+
+.pol:hover {
+    fill: #C42021;
+}
