@@ -6,7 +6,7 @@ body, html {
 }
 
 body {
-    background-image: url('./background.jpg');
+    background-image: url('./background1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,8 +20,8 @@ body {
 
 header h1 {
     background-color: rgba(0, 0, 0, 0.0);
-    color: white;
-    text-align: center;
+    color: #eef0e9;
+    text-align: right;
     padding: 10px 0;
     font-family: 'Yellowtail', cursive;
     font-size: 60px;
@@ -44,19 +44,19 @@ nav td {
 }
 
 nav td:nth-child(1) a {
-    background-color: #2A6C9C;
+    background-color: #3D348B;
 }
 
 nav td:nth-child(2) a {
-    background-color: #C49C1C;
+    background-color: #E6AF2E;
 }
 
 nav td:nth-child(3) a {
-    background-color: #736022;
+    background-color: #647C36;
 }
 
 nav td:nth-child(4) a {
-    background-color: #2E321E;
+    background-color: #191716;
 }
 
 nav a.button {
@@ -85,7 +85,7 @@ main {
 
 .content-container {
     border-collapse: collapse;
-    background-color: #2a6d9ce1; /* Semi-transparent white */
+    background-color: #485234c0; /* Semi-transparent white */
     border-radius: 15px; /* Rounded corners */
     padding: 20px; /* Inner spacing */
     margin: 0px; /* Center the container horizontally */
